@@ -82,9 +82,7 @@ document.getElementById('women').addEventListener('click', function() {
 document.getElementById('ele').addEventListener('click', function() {
   loadCategory('https://fakestoreapi.com/products/category/electronics', 'ele.html');
 });
-document.getElementById('cart').addEventListener('click', function() {
-  loadCategory('https://fakestoreapi.com/carts', 'cart.html');
-});
+
 
 document.getElementById('home').addEventListener('click', function() {
   fetch('index.html')
